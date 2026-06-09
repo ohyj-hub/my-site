@@ -29,10 +29,10 @@ export default function Home() {
             Team Portal
           </span>
           <a
-            href="mailto:team@example.com"
+            href="mailto:ohyj@2359.co.kr"
             className="text-sm text-slate-500 hover:text-slate-800 transition-colors"
           >
-            team@example.com
+            ohyj@2359.co.kr
           </a>
         </div>
       </header>
@@ -81,7 +81,7 @@ export default function Home() {
           언제든지 편하게 연락 주세요. 빠르게 답변드리겠습니다.
         </p>
         <a
-          href="mailto:team@example.com"
+          href="mailto:ohyj@2359.co.kr"
           className="inline-block bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full text-base transition-colors duration-150 shadow-lg shadow-blue-900/30"
         >
           문의하기 →
