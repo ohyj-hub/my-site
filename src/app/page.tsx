@@ -1,3 +1,5 @@
+import ConsultationForm from './consultation-form';
+
 const services = [
   {
     icon: "🚀",
@@ -72,20 +74,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-slate-900 py-20 px-6 text-center">
-        <h2 className="text-3xl font-bold text-white mb-3">
-          협업 또는 문의가 있으신가요?
-        </h2>
-        <p className="text-slate-400 mb-8 text-base">
-          언제든지 편하게 연락 주세요. 빠르게 답변드리겠습니다.
-        </p>
-        <a
-          href="mailto:ohyj@2359.co.kr"
-          className="inline-block bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full text-base transition-colors duration-150 shadow-lg shadow-blue-900/30"
-        >
-          문의하기 →
-        </a>
+      {/* Consultation Form */}
+      <section className="bg-slate-900 py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-white mb-3">
+              상담 신청
+            </h2>
+            <p className="text-slate-400 text-base">
+              문의 내용을 남겨주시면 빠르게 답변드리겠습니다.
+            </p>
+          </div>
+          <ConsultationForm />
+        </div>
       </section>
 
       {/* Footer */}
